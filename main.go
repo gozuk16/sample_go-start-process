@@ -58,6 +58,6 @@ func main() {
 	case <-quit:
 		fmt.Println("interrup signal accepted.")
 	case err := <-done:
-		fmt.Println("error exit.", err)
+		fmt.Println("exit.", err)
 	}
 }
