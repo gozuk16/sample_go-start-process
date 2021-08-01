@@ -60,7 +60,4 @@ func main() {
 	case err := <-done:
 		fmt.Println("error exit.", err)
 	}
-
-	// process stop
-
 }
